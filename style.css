@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+.header{
+    background-color: palevioletred;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.plans{
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: space-around;
+    color: white;
+}
+.plans__price{
+  background-color: black;
+  padding: 20px;
+  border: solid black 2px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.plans__price h1,h2{
+    text-align: center;
+
+}
+.plans__desc{
+    border: solid white 2px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
